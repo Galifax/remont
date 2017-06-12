@@ -118,3 +118,37 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+.my-table{
+    width: 100%;
+}
+
+.my-table tr td{
+    padding: 10px;
+}
+
+.left-sidebar ul li{
+    list-style-type: none;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.left-sidebar ul li a{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.left-sidebar ul li a p{
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.content, .left-sidebar{
+    padding: 20px;
+}
+

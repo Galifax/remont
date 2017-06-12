@@ -16,6 +16,7 @@ return [
         'request' => [
             'csrfParam' => '_csrf-frontend',
             'baseUrl' => '',
+            'class' => 'frontend\components\LangRequest',
         ],
         'user' => [
             'identityClass' => 'common\models\User',
@@ -42,10 +43,25 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'class'=>'frontend\components\LangUrlManager',
             'rules' => [
-                
+                 '/' => 'site/index',
+                 '<controller:\w+>/<action:\w+>/'=>'<controller>/<action>',
             ],
         ],
+        'language'=>'ru-RU',
+            'i18n' => [
+                'translations' => [
+                    '*' => [
+                        'class' => 'yii\i18n\PhpMessageSource',
+                        'basePath' => '@frontend/web/lang',
+                        'sourceLanguage' => 'ru',
+                        'fileMap' => [
+                            'main' => 'main.php',
+                        ],
+                    ],
+                ],
+            ],
         
     ],
     'params' => $params,
