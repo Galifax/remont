@@ -29,7 +29,7 @@ $this->title = 'Заказы';
     <?php
 
        Modal::begin([
-    'header' => '<h2 class="text-center">Создание заказа</h2>',
+    'header' => '<h2 class="text-center">'.Yii::t('main', 'Новый заказ').'</h2>',
 
     'id' => 'modal',
 

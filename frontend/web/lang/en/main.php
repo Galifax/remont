@@ -1,6 +1,13 @@
 <?php
 return [
 	'Создать заказ' => 'Сreate order',
+	'Новый заказ' => 'New order',
+	'Создать' => 'Create',
+	'Обновить' => 'Update',
+	'Клиент' => 'Client',
+	'Заказы' => 'Order',
+	'Устройство и неисправности' => 'Device and malfunctions',
+	'Дополнительная информация' => 'Additional Information',
 	'Заказы' => 'Orders',
 	'Склад' => 'Stock',
 	'Клиенты' => 'Clients',
@@ -29,4 +36,8 @@ return [
 	'Срочно' => 'Urgently',
 	'Менеджер' => 'Manager',
 	'Исполнитель' => 'Executor',
+	'Платный' => 'Paid',
+	'По гарантии' => 'Under the guarantee',
+	'Искать' => 'Search',
+	'Сброс' => 'Reset',
 ];
