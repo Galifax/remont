@@ -39,11 +39,11 @@ AppAsset::register($this);
         <ul style="margin-left: -30px;">
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-list" aria-hidden="true"><p><?= Yii::t('main', 'Заказы')?></p></a></i></li>
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa fa-folder-open" aria-hidden="true"><p><?= Yii::t('main', 'Слад')?></p></a></i></li>
-        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-user-circle" aria-hidden="true"><p>Клиенты</p></a></i></li>
-        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-phone-square" aria-hidden="true"><p>Звонки</p></a></i></li>
-        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-file-text" aria-hidden="true"><p>Отчеты</p></a></i></li>
-        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-cogs" aria-hidden="true"><p>Настройки</p></a></i></li>
-        <li><a href="<?=Url::to(['/site/logout'])?>" ><i class="fa fa-cogs" aria-hidden="true"><p>Выйти</p></a></i></li>
+        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-user-circle" aria-hidden="true"><p><?= Yii::t('main', 'Клиенты')?></p></a></i></li>
+        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-phone-square" aria-hidden="true"><p><?= Yii::t('main', 'Звонки')?></p></a></i></li>
+        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-file-text" aria-hidden="true"><p><?= Yii::t('main', 'Отчеты')?></p></a></i></li>
+        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-cogs" aria-hidden="true"><p><?= Yii::t('main', 'Настройки')?></p></a></i></li>
+        <li><a href="<?=Url::to(['/site/logout'])?>" ><i class="fa fa-cogs" aria-hidden="true"><p><?= Yii::t('main', 'Выйти')?></p></a></i></li>
         </ul>
         </div>
         <div class="col-md-11 content">
