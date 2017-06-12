@@ -17,7 +17,7 @@ $this->title = 'Заказы';
   
   <p>
 
-        <?= Html::button('Cоздать заказ', ['value' => Url::to(['create']) , 'class' => 'btn btn-success' , 'id' => 'modalButton']) ?>
+        <?= Html::button(Yii::t('main', 'Создать заказ'), ['value' => Url::to(['create']) , 'class' => 'btn btn-success' , 'id' => 'modalButton']) ?>
          <?= Html::button('', ['class' => 'btn btn-info fa fa-filter btn-search', 'id' => 'search-show']) ?>
          <?= Html::button('', ['class' => 'btn btn-info fa fa-filter btn-search', 'id' => 'search-hide']) ?>
 

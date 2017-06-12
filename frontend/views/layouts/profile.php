@@ -38,7 +38,7 @@ AppAsset::register($this);
         <div class="col-md-1 left-sidebar">
         <ul style="margin-left: -30px;">
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-list" aria-hidden="true"><p><?= Yii::t('main', 'Заказы')?></p></a></i></li>
-        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa fa-folder-open" aria-hidden="true"><p><?= Yii::t('main', 'Склад')?></p></a></i></li>
+        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa fa-folder-open" aria-hidden="true"><p><?= Yii::t('main', 'Слад')?></p></a></i></li>
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-user-circle" aria-hidden="true"><p>Клиенты</p></a></i></li>
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-phone-square" aria-hidden="true"><p>Звонки</p></a></i></li>
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-file-text" aria-hidden="true"><p>Отчеты</p></a></i></li>
