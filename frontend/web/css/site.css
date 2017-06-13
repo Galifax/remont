@@ -152,3 +152,30 @@ a.desc:after {
     padding: 20px;
 }
 
+
+body{
+background-color: rgb(238, 241, 245);
+}
+
+.left-sidebar{
+    background-color: #28a2c7;
+}
+
+.left-sidebar ul {
+    padding-left: 0;
+}
+
+.left-sidebar ul li{
+    border-top: 1px solid white;
+    padding-left: 0;padding-right: 0;
+}
+
+.left-sidebar ul li a{
+    padding-left: 0;padding-right: 0;
+    color: #ffffff;
+}
+
+.left-sidebar ul li a p{
+    
+    margin-top: 10px;
+}

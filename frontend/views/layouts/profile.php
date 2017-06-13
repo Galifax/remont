@@ -36,14 +36,14 @@ AppAsset::register($this);
         <?= Alert::widget() ?>
         <div class="row">
         <div class="col-md-1 left-sidebar">
-        <ul style="margin-left: -30px;">
+        <ul>
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-list" aria-hidden="true"><p><?= Yii::t('main', 'Заказы')?></p></a></i></li>
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa fa-folder-open" aria-hidden="true"><p><?= Yii::t('main', 'Склад')?></p></a></i></li>
-        <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-user-circle" aria-hidden="true"><p><?= Yii::t('main', 'Клиенты')?></p></a></i></li>
+        <li><a href="<?=Url::to(['/client'])?>" ><i class="fa fa-user-circle" aria-hidden="true"><p><?= Yii::t('main', 'Клиенты')?></p></a></i></li>
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-phone-square" aria-hidden="true"><p><?= Yii::t('main', 'Звонки')?></p></a></i></li>
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-file-text" aria-hidden="true"><p><?= Yii::t('main', 'Отчеты')?></p></a></i></li>
         <li><a href="<?=Url::to(['/order'])?>" ><i class="fa fa-cogs" aria-hidden="true"><p><?= Yii::t('main', 'Настр.')?></p></a></i></li>
-        <li><a href="<?=Url::to(['/site/logout'])?>" ><i class="fa fa-cogs" aria-hidden="true"><p><?= Yii::t('main', 'Выйти')?></p></a></i></li>
+        <li><a href="<?=Url::to(['/site/logout'])?>" ><i class="fa fa-sign-out " aria-hidden="true"><p><?= Yii::t('main', 'Выйти')?></p></a></i></li>
         </ul>
         </div>
         <div class="col-md-11 content">

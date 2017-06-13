@@ -65,6 +65,8 @@ class ClientController extends Controller
      */
     public function actionCreate()
     {
+        $this->layout = false;
+
         $model = new Client();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {

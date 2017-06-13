@@ -14,41 +14,41 @@ $this->title = 'Заказы';
 ?>
 <div class="order-index">
 
-  
-  <p>
 
-        <?= Html::button(Yii::t('main', 'Создать заказ'), ['value' => Url::to(['create']) , 'class' => 'btn btn-success' , 'id' => 'modalButton']) ?>
-         <?= Html::button('', ['class' => 'btn btn-info fa fa-filter btn-search', 'id' => 'search-show']) ?>
-         <?= Html::button('', ['class' => 'btn btn-info fa fa-filter btn-search', 'id' => 'search-hide']) ?>
+    <p>
+
+        <?= Html::button(Yii::t('main', 'Создать заказ'), ['value' => Url::to(['create']), 'class' => 'btn btn-success', 'id' => 'modalButton']) ?>
+        <?= Html::button('', ['class' => 'btn btn-info fa fa-filter btn-search', 'id' => 'search-show']) ?>
+        <?= Html::button('', ['class' => 'btn btn-info fa fa-filter btn-search', 'id' => 'search-hide']) ?>
 
     </p>
 
-    <?=$this->render('_search', ['model' => $searchModel]); ?>
+    <?= $this->render('_search', ['model' => $searchModel]); ?>
 
 
     <?php
 
-       Modal::begin([
-    'header' => '<h2 class="text-center">'.Yii::t('main', 'Новый заказ').'</h2>',
+    Modal::begin([
+        'header' => '<h2 class="text-center">' . Yii::t('main', 'Новый заказ') . '</h2>',
 
-    'id' => 'modal',
+        'id' => 'modal',
 
-    'size' => 'modal-lg',
+        'size' => 'modal-lg',
 
     ]);
 
     echo "<div id='modalContent'></div>";
 
 
-
     Modal::end();
 
     ?>
+</div>
 <div class="table-responsive">
-<?php Pjax::begin(); ?>    <?= GridView::widget([
+    <?php Pjax::begin(); ?>    <?= GridView::widget([
         'dataProvider' => $dataProvider,
         // 'filterModel' => $searchModel,
-           'tableOptions' => [
+        'tableOptions' => [
             'class' => 'my-table',
         ],
         'columns' => [
@@ -77,10 +77,10 @@ $this->title = 'Заказы';
             'executor',
 
             ['class' => 'yii\grid\ActionColumn',
-             'template' => '{update} {delete}'],
+                'template' => '{update} {delete}'],
         ],
     ]); ?>
-<?php Pjax::end(); ?></div>
+    <?php Pjax::end(); ?></div>
 </div>
 
 
