@@ -7,7 +7,7 @@ body {
     min-height: 100%;
     height: auto;
     margin: 0 auto -60px;
-    padding: 0 0 60px;
+    padding: 0 0 ;
 }
 
 .wrap > .container {
@@ -131,7 +131,7 @@ a.desc:after {
     list-style-type: none;
     font-size: 40px;
     text-align: center;
-    padding: 10px;
+    padding: 10px ;
 
 }
 
@@ -203,12 +203,12 @@ background-color: rgb(238, 241, 245);
     margin-top: 10px;
 }
 
-.navbar  #w3-collapse{
+.navbar  #w2-collapse{
     padding-top: 10px;
 }
 
 .navbar{
-    background-color: #1b6097;
+    background-color: #28a2c7;
     color:white;
     z-index: 10;
 }
@@ -227,4 +227,13 @@ background-color: rgb(238, 241, 245);
 
 .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
     width: 120px;
+    margin-top: 8px;
+}
+
+.btn.logout {
+    min-width: 150px;
+}
+
+.logo-slogan{
+    color:white;
 }
