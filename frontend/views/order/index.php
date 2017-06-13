@@ -44,13 +44,11 @@ $this->title = 'Заказы';
 
     ?>
 </div>
-<div class="table-responsive">
+
     <?php Pjax::begin(); ?>    <?= GridView::widget([
         'dataProvider' => $dataProvider,
         // 'filterModel' => $searchModel,
-        'tableOptions' => [
-            'class' => 'my-table',
-        ],
+        
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
@@ -81,6 +79,5 @@ $this->title = 'Заказы';
         ],
     ]); ?>
     <?php Pjax::end(); ?></div>
-</div>
 
 

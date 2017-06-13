@@ -68,7 +68,7 @@ $this->title = Yii::t('app', 'Clients');
             // 'note:ntext',
             // 'from',
 
-            ['class' => 'yii\grid\ActionColumn'],
+            ['class' => 'yii\grid\ActionColumn', 'template' => '{update} {delete}'],
         ],
     ]); ?>
 <?php Pjax::end(); ?></div>

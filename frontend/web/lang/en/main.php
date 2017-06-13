@@ -5,7 +5,6 @@ return [
 	'Создать' => 'Create',
 	'Обновить' => 'Update',
 	'Клиент' => 'Client',
-	'Заказы' => 'Order',
 	'Устройство и неисправности' => 'Device and malfunctions',
 	'Дополнительная информация' => 'Additional Information',
 	'Заказы' => 'Orders',
