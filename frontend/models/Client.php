@@ -49,17 +49,17 @@ class Client extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('app', 'ID'),
-            'user_id' => Yii::t('app', 'User ID'),
-            'name' => Yii::t('app', 'Name'),
-            'mob_phone' => Yii::t('app', 'Mob Phone'),
-            'email' => Yii::t('app', 'Email'),
-            'adress' => Yii::t('app', 'Adress'),
-            'sale_card' => Yii::t('app', 'Sale Card'),
-            'sale_service' => Yii::t('app', 'Sale Service'),
-            'sale_product' => Yii::t('app', 'Sale Product'),
-            'note' => Yii::t('app', 'Note'),
-            'from' => Yii::t('app', 'From'),
+            'id' => Yii::t('main', 'ID'),
+            'user_id' => Yii::t('main', 'User ID'),
+            'name' => Yii::t('main', 'Имя'),
+            'mob_phone' => Yii::t('main', 'Mob Phone'),
+            'email' => Yii::t('main', 'Email'),
+            'adress' => Yii::t('main', 'Adress'),
+            'sale_card' => Yii::t('main', 'Sale Card'),
+            'sale_service' => Yii::t('main', 'Sale Service'),
+            'sale_product' => Yii::t('main', 'Sale Product'),
+            'note' => Yii::t('main', 'Заметка'),
+            'from' => Yii::t('main', 'Откуда'),
         ];
     }
 }

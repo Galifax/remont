@@ -2,6 +2,8 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\base\Model;
+
 
 /* @var $this yii\web\View */
 /* @var $model backend\models\Order */
