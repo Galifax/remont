@@ -51,6 +51,7 @@ AppAsset::register($this);
         </div>
         </div>
     </div>
+
 </div>
 <?= WLang::widget();?>
 <?php $this->endBody() ?>
