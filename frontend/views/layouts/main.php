@@ -26,16 +26,23 @@ MainAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
+    <div class="top-info">
+        <div class="container">
+            <div class="pull-right">
+                <span>+38 (093) 533 88 90</span> <span><i class="fa fa-phone"></i> Перезвоните мне</span>
+            </div>
+        </div>
+    </div>
     <?php
     NavBar::begin([
         'brandLabel' => 'My Company',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar',
+            'class' => 'navbar-default navbar',
         ],
     ]);
     $menuItems = [
-        ['label' => 'Главная', 'url' => ['/site/index']],
+
         ['label' => 'О нас', 'url' => ['/site/about']],
         ['label' => 'Контакти', 'url' => ['/site/contact']],
     ];
@@ -59,7 +66,7 @@ MainAsset::register($this);
     NavBar::end();
     ?>
 
-    <div class="container">
+    <div class="">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
