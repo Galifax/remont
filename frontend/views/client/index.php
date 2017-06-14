@@ -24,6 +24,7 @@ $this->title = Yii::t('app', 'Clients');
     </p>
 
     <div id="search-hide" class="collapse">
+        
         <?= $this->render('_search', ['model' => $searchModel]); ?>
     </div>
 

@@ -27,6 +27,8 @@ $this->title = 'Заказы';
     </div>
 
 
+<!--    <span class="b-filter__arrow" style="left: 148.125px;"></span>-->
+    
     <?php
 
     Modal::begin([

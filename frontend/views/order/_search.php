@@ -9,11 +9,12 @@ use yii\widgets\ActiveForm;
 ?>
 
 <div class="order-search form-search">
-
+    
     <?php $form = ActiveForm::begin([
         'action' => ['index'],
         'method' => 'get',
     ]); ?>
+
     <div class="row">
     <div class="col-md-3 col-sm-4 col-xs-6">
     <?= $form->field($model, 'id') ?>

@@ -33,7 +33,7 @@ AppAsset::register($this);
     <?php
     NavBar::begin([
 //            'brandLabel' => '<img src="../../web/images/TSB39_whrJ8.jpg" style="float: left; margin-right: 12px;margin-top:-20px;width:60px"><span class="logo-slogan">Imperial Food Company</span><div class="slogan" >Фрукты и овощи</div>',
-        'brandLabel' => '<span class="logo-slogan"><i class="fa fa-wrench"></i>RMNT</span>',
+        'brandLabel' => '<span class="logo-slogan"><i class="fa fa-wrench"></i></span>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar ',
@@ -92,7 +92,7 @@ AppAsset::register($this);
                     <ul>
                         <li><a href="<?= Url::to(['/order']) ?>"><i class="fa fa-list" aria-hidden="true">
                                     <p><?= Yii::t('main', 'Заказы') ?></p></a></i></li>
-                        <li><a href="<?= Url::to(['/order']) ?>"><i class="fa fa fa-folder-open" aria-hidden="true">
+                        <li><a href="<?= Url::to(['/order']) ?>"><i class="fa fa fa-barcode" aria-hidden="true">
                                     <p><?= Yii::t('main', 'Склад') ?></p></a></i></li>
                         <li><a href="<?= Url::to(['/client']) ?>"><i class="fa fa-user-circle" aria-hidden="true">
                                     <p><?= Yii::t('main', 'Клиенты') ?></p></a></i></li>
@@ -104,6 +104,16 @@ AppAsset::register($this);
                                     <p><?= Yii::t('main', 'Настр.') ?></p></a></i></li>
                         <li><a href="<?= Url::to(['/site/logout']) ?>"><i class="fa fa-sign-out " aria-hidden="true">
                                     <p><?= Yii::t('main', 'Выйти') ?></p></a></i></li>
+
+<!--                        <li>-->
+<!--                            <a href="--><?//= Url::to(['/order']) ?><!--">-->
+<!--                                <i class="fa fa-cog fa-spin" aria-hidden="true">-->
+<!---->
+<!--                                </i> --><?//= Yii::t('main', 'Настр.') ?>
+<!--                            </a>-->
+<!---->
+<!--                        </li>-->
+
                     </ul>
                 </div>
                 <div class="col-md-11 content">

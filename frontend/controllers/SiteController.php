@@ -72,7 +72,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $this->layout = "profile";
+
 
         return $this->render('index');
     }

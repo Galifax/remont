@@ -251,3 +251,42 @@ background-color: rgb(238, 241, 245);
     margin-bottom: 20px;
     border:1px solid #747400;
 }
+
+.btn.fa-filter{
+    font-size: 20px;
+}
+
+.b-filter__arrow {
+    position: absolute;
+    top: 0px;
+    width: 0;
+    height: 0;
+}
+
+.b-filter__arrow:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 10px solid #F1F9F9;
+    border-right: 10px solid transparent;
+    z-index: 2;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.b-filter__arrow:after {
+    content: " ";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    border-top: 10px solid #C9DEF1;
+    border-right: 10px solid transparent;
+    z-index: 1;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
