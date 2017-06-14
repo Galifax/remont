@@ -33,7 +33,7 @@ AppAsset::register($this);
     <?php
     NavBar::begin([
 //            'brandLabel' => '<img src="../../web/images/TSB39_whrJ8.jpg" style="float: left; margin-right: 12px;margin-top:-20px;width:60px"><span class="logo-slogan">Imperial Food Company</span><div class="slogan" >Фрукты и овощи</div>',
-        'brandLabel' => '<span class="logo-slogan">REMONT</span>',
+        'brandLabel' => '<span class="logo-slogan"><i class="fa fa-wrench"></i>RMNT</span>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar ',

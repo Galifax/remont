@@ -18,12 +18,13 @@ $this->title = 'Заказы';
     <p>
 
         <?= Html::button(Yii::t('main', 'Создать заказ'), ['value' => Url::to(['create']), 'class' => 'btn btn-success', 'id' => 'modalButton']) ?>
-        <?= Html::button('', ['class' => 'btn btn-info fa fa-filter btn-search', 'id' => 'search-show']) ?>
-        <?= Html::button('', ['class' => 'btn btn-info fa fa-filter btn-search', 'id' => 'search-hide']) ?>
+<!--        --><?//= Html::button('', ['class' => 'btn btn-info fa fa-filter btn-search', 'id' => 'search-show']) ?>
+        <?= Html::button('', ['class' => 'btn btn-info fa fa-filter btn-search', 'id' => '#search-hide','data-toggle'=>'collapse','data-target'=>'#search-hide']) ?>
 
     </p>
-
-    <?= $this->render('_search', ['model' => $searchModel]); ?>
+    <div id="search-hide" class="collapse">
+        <?= $this->render('_search', ['model' => $searchModel]); ?>
+    </div>
 
 
     <?php
