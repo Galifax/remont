@@ -71,15 +71,60 @@ MainAsset::register($this);
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= Alert::widget() ?>
+
         <?= $content ?>
     </div>
 </div>
 
-<footer class="footer">
+<footer>
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <div class="row no-margin">
+            <div class="col-md-3 text">
+                <div class="logo">
+                    <img src="assets/img/logo_white.png" class="normal" alt="logo">
+                    <img src="assets/img/logo_white@2x.png" class="retina" alt="logo">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <div>
+                    <ul class="social">
+                        <li>Find us on</li>
+                        <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 text small">
+                <h4 class="heading white margin-bottom-small weight-300">Head Office</h4>
+                <p>Bussible Company <br>
+                    322 Moon St, Venice, 1231, Italy<br>
+                    Mon. - Fri., 9 a.m. - 6.00 p.m.</p>
+            </div>
+            <div class="col-md-2 text small">
+                <h4 class="heading white margin-bottom-small weight-300">Important link</h4>
+                <ul class="info">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Who we are</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 text">
+                <h4 class="heading white margin-bottom-small weight-300">News Subscribtion</h4>
+                <p>Subscribe to our newsletter to get all our news in your inbox.</p>
+                <div id="newsletter-form">
+                    <form class="search-form">
+                        <div class="form-input">
+                            <input placeholder="Your email ID" type="text">
+                                    <span class="form-button">
+                                        <button type="button">Sign Up</button>
+                                    </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
 

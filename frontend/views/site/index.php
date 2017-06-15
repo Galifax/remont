@@ -6,133 +6,260 @@ $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
 
-<!--    <div class="jumbotron">
-        <h1>Разработка портала</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
-        </div>
-
-    </div>-->
-
-<!--    <div class="banner">-->
-<!--        <div class="col-md-6">-->
-<!--            <h3 class="col-md-8 col">Программа №1 для сервисных центров и ремонтных мастерских</h3>-->
-<!--        </div>-->
-<!--        <div class="col-md-6">dfdf</div>-->
-<!--    </div>-->
-
-    <div class="pricing-tables-bg">
-        <div class="container">
-            <div class="row marg75">
-                <div class="col-lg-12">
-                    <div class="promo">Тарифные планы</div>
-                    <div class="promo-p">We deliver hapinnes</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ms-12 marg50">
-                    <div class="pricing-table">
-                        <div class="price-name">$<b>155</b><br><span>per month</span></div>
-                        <div class="price-bg">
-                            <div class="price-bg-name">Light</div>
-                            <ul>
-                                <li>Sudzuki</li>
-                                <li>Onepage HTML</li>
-                                <li>Simple interface</li>
-                                <li>Clean design</li>
-                                <li>Modern style</li>
-                            </ul>
-                            <div class="price-bg-button"><a href="#">Purchase</a></div>
-                        </div>
+    <section class="hero-header-1">
+        <div id="hero-header-1">
+            <!-- slide 1 -->
+            <div class="slide slide-1">
+                <div class="container">
+                    <div class="text-wrapper">
+                        <h1>Creativity makes the entire difference</h1>
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+                        <div class="margin-top30 bttn-div"><a href="#0" class="bttn bttn-small bttn-blue bttn75 bttn-scale">Explore More</a></div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ms-12 marg50">
-                    <div class="pricing-table">
-                        <div class="price-name">$<b>355</b><br><span>per month</span></div>
-                        <div class="price-bg">
-                            <div class="price-bg-name">Average</div>
-                            <ul>
-                                <li>Sudzuki</li>
-                                <li>Onepage HTML</li>
-                                <li>Simple interface</li>
-                                <li>Clean design</li>
-                                <li>Modern style</li>
-                            </ul>
-                            <div class="price-bg-button"><a href="#">Purchase</a></div>
-                        </div>
+            </div>
+            <!-- slide 2 -->
+            <div class="slide slide-2">
+                <div class="container">
+                    <div class="text-wrapper">
+                        <h1>Design makes the entire world beautiful</h1>
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+                        <div class="margin-top30 bttn-div"><a href="#0" class="bttn bttn-small bttn-blue bttn75 bttn-scale">Explore More</a></div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ms-12 marg50">
-                    <div class="pricing-table feature">
-                        <div class="price-name">$<b>555</b><br><span>per month</span></div>
-                        <div class="price-bg">
-                            <div class="price-bg-name">Business</div>
-                            <ul>
-                                <li>Sudzuki</li>
-                                <li>Onepage HTML</li>
-                                <li>Simple interface</li>
-                                <li>Clean design</li>
-                                <li>Modern style</li>
-                            </ul>
-                            <div class="price-bg-button"><a href="#">Purchase</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ms-12 marg50">
-                    <div class="pricing-table">
-                        <div class="price-name">$<b>999</b><br><span>per month</span></div>
-                        <div class="price-bg">
-                            <div class="price-bg-name">Deluxe</div>
-                            <ul>
-                                <li>Sudzuki</li>
-                                <li>Onepage HTML</li>
-                                <li>Simple interface</li>
-                                <li>Clean design</li>
-                                <li>Modern style</li>
-                            </ul>
-                            <div class="price-bg-button"><a href="#">Purchase</a></div>
-                        </div>
+            </div>
+            <!-- slide 3 -->
+            <div class="slide slide-3">
+                <div class="container">
+                    <div class="text-wrapper">
+                        <h1>Create your perfect online presence</h1>
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+                        <div class="margin-top30 bttn-div"><a href="#0" class="bttn bttn-small bttn-blue bttn75 bttn-scale">Explore More</a></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!-- Carousel Arrows - Prev/Next -->
+        <div class="carousel-arrows">
+            <a href="#0" class="prev-feature left bttn-scale"><i class="ti-angle-left"></i></a>
+            <a href="#0" class="next-feature right bttn-scale"><i class="ti-angle-right"></i></a>
+        </div>
+    </section>
+
+
+    <section id="pricing-plans">
+        <div class="flat-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="flat-section-title">
+                            <h2>Pricing Plans</h2>
+										<span class="flat-section-subtitle">
+											Appee dolor sit amet, eum dissentias philosophia an. No melius virtute vis, vix dolor dolore efficianturex cum atomorum definitiones.
+                                            <!-- end flat-section-subtitle -->
+										</span>
+                            <!-- end flat-section-title -->
+                        </div>
+                        <!-- end col-sm-12 -->
+                    </div>
+                    <div class="pricing-table">
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="pricing-table-column free-pricing-table-column">
+                                <div class="pricing-table-column-header">
+                                    <h3 class="column-title">Free</h3>
+                                    <h2 class="column-price">
+                                        From
+                                        <span class="price">$0</span>
+                                        Per Month
+                                    </h2>
+                                    <!-- end pricing table column header -->
+                                </div>
+                                <ul class="single-column-features">
+                                    <li>
+                                        Total Users
+                                        <span>1</span>
+                                    </li>
+                                    <li>
+                                        Unlimitted Styles
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Advanced Protection
+                                        <span><img src="images/general-elements/pricing-wrong.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Cloud Storage
+                                        <span><img src="images/general-elements/pricing-wrong.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        24/7 Customer Service
+                                        <span><img src="images/general-elements/pricing-wrong.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Backup Service
+                                        <span><img src="images/general-elements/pricing-wrong.png" alt=""></span>
+                                    </li>
+                                    <!-- end column-features -->
+                                </ul>
+                                <div class="pricing-table-column-footer">
+                                    $0 Per Month
+                                    <a class="" href="#">Sign Up</a>
+                                    <!-- end pricing table column footer -->
+                                </div>
+                                <!-- end pricing table column -->
+                            </div>
+                            <!-- end col-sm-3 -->
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="pricing-table-column">
+                                <div class="pricing-table-column-header">
+                                    <h3 class="column-title">Basic</h3>
+                                    <h2 class="column-price">
+                                        From
+                                        <span class="price">$99</span>
+                                        Per Month
+                                    </h2>
+                                    <!-- end pricing table column header -->
+                                </div>
+                                <ul class="single-column-features">
+                                    <li>
+                                        Total Users
+                                        <span>15</span>
+                                    </li>
+                                    <li>
+                                        Unlimitted Styles
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Advanced Protection
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Cloud Storage
+                                        <span><img src="images/general-elements/pricing-wrong.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        24/7 Customer Service
+                                        <span><img src="images/general-elements/pricing-wrong.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Backup Service
+                                        <span><img src="images/general-elements/pricing-wrong.png" alt=""></span>
+                                    </li>
+                                    <!-- end column-features -->
+                                </ul>
+                                <div class="pricing-table-column-footer">
+                                    $99 Per Month
+                                    <a class="" href="#">Sign Up</a>
+                                    <!-- end pricing table column footer -->
+                                </div>
+                                <!-- end pricing table column -->
+                            </div>
+                            <!-- end col-sm-3 -->
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="pricing-table-column featured-pricing-table-column">
+                                <div class="pricing-table-column-header">
+                                    <h3 class="column-title">Premium</h3>
+                                    <h2 class="column-price">
+                                        From
+                                        <span class="price">$199</span>
+                                        Per Month
+                                    </h2>
+                                    <!-- end pricing table column header -->
+                                </div>
+                                <ul class="single-column-features">
+                                    <li>
+                                        Total Users
+                                        <span>35</span>
+                                    </li>
+                                    <li>
+                                        Unlimitted Styles
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Advanced Protection
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Cloud Storage
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        24/7 Customer Service
+                                        <span><img src="images/general-elements/pricing-wrong.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Backup Service
+                                        <span><img src="images/general-elements/pricing-wrong.png" alt=""></span>
+                                    </li>
+                                    <!-- end column-features -->
+                                </ul>
+                                <div class="pricing-table-column-footer">
+                                    $199 Per Month
+                                    <a class="" href="#">Sign Up</a>
+                                    <!-- end pricing table column footer -->
+                                </div>
+                                <!-- end pricing table column -->
+                            </div>
+                            <!-- end col-sm-3 -->
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="pricing-table-column">
+                                <div class="pricing-table-column-header">
+                                    <h3 class="column-title">Ultimate</h3>
+                                    <h2 class="column-price">
+                                        From
+                                        <span class="price">$399</span>
+                                        Per Month
+                                    </h2>
+                                    <!-- end pricing table column header -->
+                                </div>
+                                <ul class="single-column-features">
+                                    <li>
+                                        Total Users
+                                        <span>15</span>
+                                    </li>
+                                    <li>
+                                        Unlimitted Styles
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Advanced Protection
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Cloud Storage
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        24/7 Customer Service
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <li>
+                                        Backup Service
+                                        <span><img src="images/general-elements/pricing-check.png" alt=""></span>
+                                    </li>
+                                    <!-- end column-features -->
+                                </ul>
+                                <div class="pricing-table-column-footer">
+                                    $399 Per Month
+                                    <a class="" href="#">Sign Up</a>
+                                    <!-- end pricing table column footer -->
+                                </div>
+                                <!-- end pricing table column -->
+                            </div>
+                            <!-- end col-sm-3 -->
+                        </div>
+                        <!-- end pricing-table -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end flat-section -->
+        </div>
+        <!-- end our-clients -->
+    </section>
 
 </div>
