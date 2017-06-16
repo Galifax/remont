@@ -52,10 +52,10 @@ $this->title = 'My Yii Application';
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="flat-section-title">
-                            <h2>Pricing Plans</h2>
+                        <div class="flat-section-title text-center">
+                            <h2>Тарифные планы</h2>
 										<span class="flat-section-subtitle">
-											Appee dolor sit amet, eum dissentias philosophia an. No melius virtute vis, vix dolor dolore efficianturex cum atomorum definitiones.
+											Мы предлагаем разные тарифные планы,для любых нужд.
                                             <!-- end flat-section-subtitle -->
 										</span>
                             <!-- end flat-section-title -->
@@ -66,17 +66,17 @@ $this->title = 'My Yii Application';
                         <div class="col-sm-6 col-md-6 col-lg-3">
                             <div class="pricing-table-column free-pricing-table-column">
                                 <div class="pricing-table-column-header">
-                                    <h3 class="column-title">Free</h3>
+                                    <h3 class="column-title">Начальный</h3>
                                     <h2 class="column-price">
-                                        From
-                                        <span class="price">$0</span>
-                                        Per Month
+                                        от
+                                        <span class="price">$10</span>
+                                        в месяц
                                     </h2>
                                     <!-- end pricing table column header -->
                                 </div>
                                 <ul class="single-column-features">
                                     <li>
-                                        Total Users
+                                        Кол-во пользователей
                                         <span>1</span>
                                     </li>
                                     <li>
@@ -103,7 +103,7 @@ $this->title = 'My Yii Application';
                                 </ul>
                                 <div class="pricing-table-column-footer">
                                     $0 Per Month
-                                    <a class="" href="#">Sign Up</a>
+                                    <a class="" href="#">Купить</a>
                                     <!-- end pricing table column footer -->
                                 </div>
                                 <!-- end pricing table column -->

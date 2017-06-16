@@ -29,7 +29,7 @@ MainAsset::register($this);
     <div class="top-info">
         <div class="container">
             <div class="pull-right">
-                <span>+38 (093) 533 88 90</span> <span><i class="fa fa-phone"></i> Перезвоните мне</span>
+                <span style="margin-right: 10px"><img style="margin-right: 5px" height="17" src="https://steamuserimages-a.akamaihd.net/ugc/87099658851961614/4F0CFA57D2C8596C894125A73095595F6843143F/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|128:128&composite-to%3D%2A%2C%2A%7C128%3A128&background-color=black">+78 (952) 533 88 90</span> <span><button style="display:inline" class="b-phones-bar__call b-btn b-btn_color_ocean b-btn_type_ico" onclick=""><span class="fa fa-phone h-mr-5"></span> Перезвоните мне</button></span>
             </div>
         </div>
     </div>
@@ -44,7 +44,7 @@ MainAsset::register($this);
     $menuItems = [
 
         ['label' => 'О нас', 'url' => ['/site/about']],
-        ['label' => 'Контакти', 'url' => ['/site/contact']],
+        ['label' => 'Контакти', 'url' => ['/site/contact'],'class'=>'btn btn-success'],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Регистрация', 'url' => ['/site/signup']];
