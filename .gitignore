@@ -10,3 +10,5 @@
 .idea/vcs.xml
 
 .idea/workspace.xml
+
+common/config/main-local.php

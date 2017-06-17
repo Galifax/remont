@@ -191,6 +191,8 @@ a.desc:after {
 
 
 
+
+
 /* PRICING TABLE */
 #pricing-plans {
     width: 100%;
@@ -362,15 +364,6 @@ h3 {
     font-size: 26px;
     line-height: 108%;
     padding-bottom: 23px;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
-    color: #222;
-    font-weight: 700;
-    letter-spacing: .1px;
-    display: block;
-    margin: 0;
-    width: 100%;
 }
 
 .flat-section-title h2 {
@@ -547,4 +540,61 @@ footer h4 {
 
 footer .text, .footer .text {
     padding: 50px;
+}
+
+/* FOOTER END*/
+
+/*FEATURES*/
+
+.subh-basic-dark {
+    color: #000;
+}
+.subh-basic-dark, .subh-basic-light {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    display: block;
+}
+
+.margin-top20 {
+    margin-top: 20px !important;
+}
+
+.margin-top30 {
+    margin-top: 30px !important;
+}
+
+.center-block-1, .center-block-2, .center-block-3, .head-center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center-block-1, .head-center {
+    width: 540px;
+}
+
+.all-details-wrapper {
+    margin-top: 60px;
+}
+
+.section-padding {
+    padding: 120px 0;
+}
+
+.all-details-wrapper .fa{
+    font-size: 54px;
+    color:deepskyblue;
+}
+
+.all-details-wrapper p{
+    line-height: 1.8em;
+}
+
+.details{
+    background-color: #f5fbff;
 }

@@ -46,6 +46,89 @@ $this->title = 'My Yii Application';
         </div>
     </section>
 
+    <section class="section-padding content-block-12 details">
+        <div class="container">
+            <!-- main heading and sub-text -->
+            <div class="center-block-1">
+                <h2 class="">Beautifully Structured</h2>
+                <p class="margin-top30 font-hind text-extra-large flat-section-subtitle">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <!-- content wrapper -->
+            <div class="row all-details-wrapper">
+                <!-- feature wrapper -->
+                <div class="col-md-4 col-sm-6 col-xs-12 margin-top30 feature foo">
+                    <!-- icon -->
+                    <div class="col-xs-3">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+                    </div>
+                    <!-- content -->
+                    <div class="col-xs-9">
+                        <!-- Feature -->
+                        <span class="subh-basic-dark">Compatibility</span>
+                        <!-- feature info -->
+                        <p class="margin-top20 font-hind">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+                    </div>
+                </div>
+                <!-- feature wrapper -->
+                <div class="col-md-4 col-sm-6 col-xs-12 margin-top30 feature foo">
+                    <div class="col-xs-3">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+                    </div>
+                    <div class="col-xs-9">
+                        <span class="subh-basic-dark">Top Design</span>
+                        <p class="margin-top20 font-hind">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+                    </div>
+                </div>
+                <!-- feature wrapper -->
+                <div class="col-md-4 col-sm-6 col-xs-12 margin-top30 feature foo">
+                    <div class="col-xs-3">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+                    </div>
+                    <div class="col-xs-9">
+                        <span class="subh-basic-dark">Award Wining</span>
+                        <p class="margin-top20 font-hind">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+                    </div>
+                </div>
+                <!-- feature wrapper -->
+                <div class="col-md-4 col-sm-6 col-xs-12 margin-top30 feature foo">
+                    <div class="col-xs-3">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+                    </div>
+                    <div class="col-xs-9">
+                        <span class="subh-basic-dark">Customization</span>
+                        <p class="margin-top20 font-hind">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+                    </div>
+                </div>
+                <!-- feature wrapper -->
+                <div class="col-md-4 col-sm-6 col-xs-12 margin-top30 feature foo">
+                    <div class="col-xs-3">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+                    </div>
+                    <div class="col-xs-9">
+                        <span class="subh-basic-dark">Features</span>
+                        <p class="margin-top20 font-hind">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+                    </div>
+                </div>
+                <!-- feature wrapper -->
+                <div class="col-md-4 col-sm-6 col-xs-12 margin-top30 feature foo">
+                    <div class="col-xs-3">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+                    </div>
+                    <div class="col-xs-9">
+                        <span class="subh-basic-dark">Elements</span>
+                        <p class="margin-top20 font-hind">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section id="pricing-plans">
         <div class="flat-section">
