@@ -49,9 +49,16 @@ $this->title = 'My Yii Application';
     <section class="section-padding content-block-12 details">
         <div class="container">
             <!-- main heading and sub-text -->
-            <div class="center-block-1">
-                <h2 class="">Beautifully Structured</h2>
-                <p class="margin-top30 font-hind text-extra-large flat-section-subtitle">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <div class="col-sm-12">
+                <div class="flat-section-title text-center">
+                    <h2>Тарифные планы</h2>
+										<span class="flat-section-subtitle">
+											Мы предлагаем разные тарифные планы,для любых нужд.
+                                            <!-- end flat-section-subtitle -->
+										</span>
+                    <!-- end flat-section-title -->
+                </div>
+                <!-- end col-sm-12 -->
             </div>
             <!-- content wrapper -->
             <div class="row all-details-wrapper">

@@ -121,7 +121,7 @@ a.desc:after {
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
-    min-height: 70px;
+    /*min-height: 70px;*/
 }
 
 .navbar-nav{
@@ -136,6 +136,17 @@ a.desc:after {
 .navbar-brand{
     margin-top: 10px;
 }
+
+
+.navbar-header{
+    height: 70px;
+}
+
+.navbar-toggle{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
 
 /**/
 .top-info {
@@ -223,7 +234,7 @@ a.desc:after {
 }
 
 .flat-section-subtitle {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 28px;
     margin-top: -12px;
     color: #999;
@@ -367,7 +378,7 @@ h3 {
 }
 
 .flat-section-title h2 {
-    font-size: 34px;
+    font-size: 38px;
     font-weight: 700;
 }
 h2 {
@@ -550,8 +561,8 @@ footer .text, .footer .text {
     color: #000;
 }
 .subh-basic-dark, .subh-basic-light {
-    font-size: 14px !important;
-    font-weight: 600 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
     text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
@@ -587,7 +598,7 @@ footer .text, .footer .text {
 }
 
 .all-details-wrapper .fa{
-    font-size: 54px;
+    font-size: 60px;
     color:deepskyblue;
 }
 
