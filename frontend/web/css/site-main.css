@@ -561,8 +561,8 @@ footer .text, .footer .text {
     color: #000;
 }
 .subh-basic-dark, .subh-basic-light {
-    font-size: 16px !important;
-    font-weight: 500 !important;
+    font-size: 16px ;
+    font-weight: 500 ;
     text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
@@ -608,4 +608,104 @@ footer .text, .footer .text {
 
 .details{
     background-color: #f5fbff;
+}
+
+
+/*PROMO*/
+
+.promo-5 {
+    background: #2e71f2;
+
+    font-family: 'Roboto', sans-serif;
+}
+.bg-cover-simple {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.section-padding-small {
+    padding: 60px 0px;
+}
+
+.center-block-1, .head-center {
+    width: 540px;
+}
+.head-center, .center-block-1, .center-block-2, .center-block-3 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.promo-5 .subh-basic-light {
+    color: #90CAF9;
+    font-size: 24px;
+}
+.subh-basic-light {
+    color: #DDDDDD;
+}
+.subh-basic-light, .subh-basic-dark {
+    font-size: 14px ;
+    font-family: 'Hind Madurai', 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    display: block;
+}
+
+.promo-5 p {
+    font-size: 22px;
+    font-weight: 400;
+}
+.margin-top30 {
+    margin-top: 30px !important;
+}
+.text-white {
+    color: #FFFFFF !important;
+}
+.font-playfair {
+    font-family: 'Playfair Display', 'Segoe UI', 'Helvetica Neue', serif;
+}
+
+.bttn-white {
+    background: #FFFFFF;
+    color: #333333;
+}
+.bttn-shadow {
+    box-shadow: 0px 5px 30px rgba(0,0,0,0.3);
+}
+.bttn-small {
+    font-size: 0.67em;
+    padding: 10px 24px 7px 24px;
+}
+.bttn75 {
+    border-radius: 5px;
+}
+.bttn {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px 0px;
+    text-decoration: none;
+    -webkit-transition: All 1s ;
+    transition: All 1s ;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding:15px;
+
+}
+.margin-top30 {
+    margin-top: 30px !important;
+}
+.letter-spacing2 {
+    letter-spacing: 2px !important;
+}
+
+.bttn:hover{
+    background-color: #21b9f4;
 }

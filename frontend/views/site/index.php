@@ -136,6 +136,18 @@ $this->title = 'My Yii Application';
         </div>
     </section>
 
+    <section class="section-padding-small promo-5 bg-cover-simple">
+        <div class="container">
+            <div class="center-block-1">
+                <!-- main heading -->
+                <h6 class="subh-basic-light">Who We are</h6>
+                <!-- sub-text -->
+                <p class="margin-top30 text-white font-playfair">Lorem ipsum dolor sit amet, consectetur adipisicing. </p>
+                <!-- button -->
+                <a href="#0" class="bttn bttn-small bttn-scale bttn-white bttn75 bttn-shadow margin-top30 letter-spacing2">Попробовать</a>
+            </div>
+        </div>
+    </section>
 
     <section id="pricing-plans">
         <div class="flat-section">
@@ -240,7 +252,7 @@ $this->title = 'My Yii Application';
                                 </ul>
                                 <div class="pricing-table-column-footer">
                                     $99 Per Month
-                                    <a class="" href="#">Sign Up</a>
+                                    <a class="" href="#">Купить</a>
                                     <!-- end pricing table column footer -->
                                 </div>
                                 <!-- end pricing table column -->
@@ -287,7 +299,7 @@ $this->title = 'My Yii Application';
                                 </ul>
                                 <div class="pricing-table-column-footer">
                                     $199 Per Month
-                                    <a class="" href="#">Sign Up</a>
+                                    <a class="" href="#">Купить</a>
                                     <!-- end pricing table column footer -->
                                 </div>
                                 <!-- end pricing table column -->
@@ -334,7 +346,7 @@ $this->title = 'My Yii Application';
                                 </ul>
                                 <div class="pricing-table-column-footer">
                                     $399 Per Month
-                                    <a class="" href="#">Sign Up</a>
+                                    <a class="" href="#">Купить</a>
                                     <!-- end pricing table column footer -->
                                 </div>
                                 <!-- end pricing table column -->
@@ -478,17 +490,6 @@ $this->title = 'My Yii Application';
         <!-- end our-clients -->
     </section>
 
-    <section class="section-padding-small promo-5 bg-cover-simple">
-        <div class="container">
-            <div class="center-block-1">
-                <!-- main heading -->
-                <h6 class="subh-basic-light">Who We are</h6>
-                <!-- sub-text -->
-                <p class="margin-top30 text-white font-playfair">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                <!-- button -->
-                <a href="#0" class="bttn bttn-small bttn-scale bttn-white bttn75 bttn-shadow margin-top30 letter-spacing2">Попробовать</a>
-            </div>
-        </div>
-    </section>
+
 
 </div>
