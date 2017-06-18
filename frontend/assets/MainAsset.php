@@ -18,6 +18,7 @@ class MainAsset extends AssetBundle
         'css/owl-carousel.css',
         'css/animate.css',
         'css/site-main.css',
+        'css/test.css',
     ];
     public $js = [
         'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js',

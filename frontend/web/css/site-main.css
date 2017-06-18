@@ -289,7 +289,7 @@ a.desc:after {
 
 .free-pricing-table-column .pricing-table-column-header .column-price {
     color: #fff;
-    background: #5ca74f;
+    background: #00a6f4;
 }
 .pricing-table-column-header .column-price {
     font-size: 14px;
@@ -332,7 +332,7 @@ ul.single-column-features li span {
 
 .free-pricing-table-column .pricing-table-column-footer a {
     color: #fff;
-    background: #5ca74f;
+    background: #00a6f4;
     border-color: #5ca74f;
 }
 .pricing-table-column-footer a:hover {

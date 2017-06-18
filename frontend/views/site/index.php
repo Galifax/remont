@@ -343,6 +343,132 @@ $this->title = 'My Yii Application';
                         </div>
                         <!-- end pricing-table -->
                     </div>
+
+
+
+
+
+
+<!--                    <div class="layout">-->
+<!---->
+<!--              -->
+<!---->
+<!--                        <div class="row m-tariff-row">-->
+<!---->
+<!--                            <div class="row-item col-1_4">-->
+<!---->
+<!--                                <div class="b-tariff">-->
+<!--                                    <div class="tariff-head">-->
+<!--                                        <div class="tariff-title">Starter</div>-->
+<!---->
+<!--                                        <div class="tariff-price">-->
+<!--                                            <span class="tariff-cy">$</span>-->
+<!--                                            <span class="tariff-cost">25</span>-->
+<!--                                            <span class="tariff-period">/mo</span>-->
+<!--                                        </div>-->
+<!---->
+<!--                                        <p class="tariff-description">Sed ut perspiciatis unde omnis iste natus.</p>-->
+<!--                                    </div>-->
+<!--                                    <ul class="tariff-meta">-->
+<!--                                        <li><mark class="light strong">Free</mark> Setup</li>-->
+<!--                                        <li><mark class="light strong">Unlimited</mark> Bandwidth</li>-->
+<!--                                        <li><mark class="light strong">50</mark> Products</li>-->
+<!--                                        <li><mark class="light strong">1 GB</mark> File Storage</li>-->
+<!--                                        <li><mark class="light strong">3%</mark> Transaction Fee</li>-->
+<!--                                        <li>24/7 Support</li>-->
+<!--                                    </ul>-->
+<!---->
+<!--                                    <a class="btn colored tariff-btn" href="#">Start Now!</a>-->
+<!--                                </div>-->
+<!---->
+<!--                            </div>-->
+<!--                            <div class="row-item col-1_4">-->
+<!---->
+<!--                                <div class="b-tariff m-popular">-->
+<!--                                    <div class="popular-title"><i class="icon-thumbs-up"></i>Most Popular</div>-->
+<!---->
+<!--                                    <div class="tariff-head">-->
+<!--                                        <div class="tariff-title">Basic</div>-->
+<!---->
+<!--                                        <div class="tariff-price">-->
+<!--                                            <span class="tariff-cy">$</span>-->
+<!--                                            <span class="tariff-cost">50</span>-->
+<!--                                            <span class="tariff-period">/mo</span>-->
+<!--                                        </div>-->
+<!---->
+<!--                                        <p class="tariff-description">Nemo enim ipsam voluptatem quia voluptas.</p>-->
+<!--                                    </div>-->
+<!--                                    <ul class="tariff-meta">-->
+<!--                                        <li><mark class="light strong">Free</mark> Setup</li>-->
+<!--                                        <li><mark class="light strong">Unlimited</mark> Bandwidth</li>-->
+<!--                                        <li><mark class="light strong">150</mark> Products</li>-->
+<!--                                        <li><mark class="light strong">3 GB</mark> File Storage</li>-->
+<!--                                        <li><mark class="light strong">2%</mark> Transaction Fee</li>-->
+<!--                                        <li>24/7 Support</li>-->
+<!--                                    </ul>-->
+<!---->
+<!--                                    <a class="btn colored tariff-btn" href="#">Start Now!</a>-->
+<!--                                </div>-->
+<!---->
+<!--                            </div>-->
+<!--                            <div class="row-item col-1_4">-->
+<!---->
+<!--                                <div class="b-tariff">-->
+<!--                                    <div class="tariff-head">-->
+<!--                                        <div class="tariff-title">Professional</div>-->
+<!---->
+<!--                                        <div class="tariff-price">-->
+<!--                                            <span class="tariff-cy">$</span>-->
+<!--                                            <span class="tariff-cost">75</span>-->
+<!--                                            <span class="tariff-period">/mo</span>-->
+<!--                                        </div>-->
+<!---->
+<!--                                        <p class="tariff-description">Neque porro quisquam est, qui dolorem ipsum.</p>-->
+<!--                                    </div>-->
+<!--                                    <ul class="tariff-meta">-->
+<!--                                        <li><mark class="light strong">Free</mark> Setup</li>-->
+<!--                                        <li><mark class="light strong">Unlimited</mark> Bandwidth</li>-->
+<!--                                        <li><mark class="light strong">250</mark> Products</li>-->
+<!--                                        <li><mark class="light strong">5 GB</mark> File Storage</li>-->
+<!--                                        <li><mark class="light strong">1,8%</mark> Transaction Fee</li>-->
+<!--                                        <li>24/7 Support</li>-->
+<!--                                    </ul>-->
+<!---->
+<!--                                    <a class="btn colored tariff-btn" href="#">Start Now!</a>-->
+<!--                                </div>-->
+<!---->
+<!--                            </div>-->
+<!--                            <div class="row-item col-1_4">-->
+<!---->
+<!--                                <div class="b-tariff">-->
+<!--                                    <div class="tariff-head">-->
+<!--                                        <div class="tariff-title">Unlimited</div>-->
+<!---->
+<!--                                        <div class="tariff-price">-->
+<!--                                            <span class="tariff-cy">$</span>-->
+<!--                                            <span class="tariff-cost">150</span>-->
+<!--                                            <span class="tariff-period">/mo</span>-->
+<!--                                        </div>-->
+<!---->
+<!--                                        <p class="tariff-description">Quis autem vel eum iure reprehenderit qui.</p>-->
+<!--                                    </div>-->
+<!--                                    <ul class="tariff-meta">-->
+<!--                                        <li><mark class="light strong">Free</mark> Setup</li>-->
+<!--                                        <li><mark class="light strong">Unlimited</mark> Bandwidth</li>-->
+<!--                                        <li><mark class="light strong">Unlimited</mark> Products</li>-->
+<!--                                        <li><mark class="light strong">Unlimited</mark> File Storage</li>-->
+<!--                                        <li><mark class="light strong">No</mark> Transaction Fee</li>-->
+<!--                                        <li>24/7 Support</li>-->
+<!--                                    </ul>-->
+<!---->
+<!--                                    <a class="btn colored tariff-btn" href="#">Start Now!</a>-->
+<!--                                </div>-->
+<!---->
+<!--                            </div>-->
+<!--                        </div>-->
+<!---->
+<!--                    </div>-->
+                    
                     <!-- end row -->
                 </div>
                 <!-- end container -->
@@ -350,6 +476,19 @@ $this->title = 'My Yii Application';
             <!-- end flat-section -->
         </div>
         <!-- end our-clients -->
+    </section>
+
+    <section class="section-padding-small promo-5 bg-cover-simple">
+        <div class="container">
+            <div class="center-block-1">
+                <!-- main heading -->
+                <h6 class="subh-basic-light">Who We are</h6>
+                <!-- sub-text -->
+                <p class="margin-top30 text-white font-playfair">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                <!-- button -->
+                <a href="#0" class="bttn bttn-small bttn-scale bttn-white bttn75 bttn-shadow margin-top30 letter-spacing2">Попробовать</a>
+            </div>
+        </div>
     </section>
 
 </div>
