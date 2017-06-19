@@ -65,9 +65,10 @@ $this->title = 'My Yii Application';
     <section class="slogan section-padding">
         <div class="container">
             <div class="flat-section-title text-center">
-                <h2>REMONT</h2>
+                <h2>My Company
+                </h2>
 										<span class="flat-section-subtitle">
-											профессиональное сервисное решение, которое с первого дня поможет вам:
+											это профессиональное сервисное решение, которое с первого дня поможет вам:
                                             <!-- end flat-section-subtitle -->
 										</span>
                 <!-- end flat-section-title -->
@@ -108,11 +109,55 @@ $this->title = 'My Yii Application';
     </section>
     <!--2 TITLE END-->
 
+
+    <section class="se-section single-feature">
+
+        <div class="col-md-6 zero-padding col-md-push-6 side-img">
+            <img src="http://demo.themesease.com/SoftEase/images/dashboard-img-3.png" alt="" class="img-responsive">
+        </div> <!-- end side-img -->
+
+        <div class="container feature-desc">
+            <div class="row">
+                <div class="col-md-5 feature-info">
+                    <h2>This is amazing dashboard</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud officia deserunt mollit exercitation.</p>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui anim id est laborum.</p>
+                    <a href="#" class="btn se-btn btn-rounded">Learn More</a>
+                </div>
+
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+
+    </section>
+
+    <hr>
+
+    <section class="se-section single-feature">
+
+        <div class="col-md-6 zero-padding side-img">
+            <img src="http://demo.themesease.com/SoftEase/images/dashboard-img-3.png" alt="" class="img-responsive">
+        </div> <!-- end side-img -->
+
+        <div class="container feature-desc">
+            <div class="row">
+                <div class="col-md-5 col-md-push-7 feature-info">
+                    <h2>This is amazing dashboard</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud officia deserunt mollit exercitation.</p>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui anim id est laborum.</p>
+                    <a href="#" class="btn se-btn btn-rounded">Learn More</a>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+
+
     <section class="section-padding-small promo-5 bg-cover-simple">
         <div class="container">
             <div class="center-block-1">
                 <!-- main heading -->
-                
+                <h6 class="subh-basic-light">Who We are</h6>
+                <!-- sub-text -->
+                <p class="margin-top30 text-white font-playfair">Lorem ipsum dolor sit amet, consectetur adipisicing. </p>
                 <!-- button -->
                 <a href="#0" class="bttn bttn-small bttn-scale bttn-white bttn75 bttn-shadow margin-top30 letter-spacing2">Попробовать бесплатно</a>
             </div>
@@ -209,13 +254,13 @@ $this->title = 'My Yii Application';
         </div>
     </section>
 
+
+
     <section class="section-padding-small promo-5 bg-cover-simple">
         <div class="container">
             <div class="center-block-1">
                 <!-- main heading -->
-                <h6 class="subh-basic-light">Who We are</h6>
-                <!-- sub-text -->
-                <p class="margin-top30 text-white font-playfair">Lorem ipsum dolor sit amet, consectetur adipisicing. </p>
+
                 <!-- button -->
                 <a href="#0" class="bttn bttn-small bttn-scale bttn-white bttn75 bttn-shadow margin-top30 letter-spacing2">Попробовать бесплатно</a>
             </div>

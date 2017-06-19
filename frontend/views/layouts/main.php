@@ -174,10 +174,10 @@ MainAsset::register($this);
             <div class="col-md-4 vcenter text-right">
                 <img src="http://www.underconsideration.com/brandnew/archives/salt_logo_detail.png" alt="Salt - HTML5 theme" class="img-responsive mb20 pull-right" width="100">
                 <div class="clearfix">
-                    <p class="footer-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-                    </p>
-                </div>
+
+                </div> <p class="footer-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                </p>
             </div>
 
         </div> <!-- end row -->
@@ -206,7 +206,8 @@ MainAsset::register($this);
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    © 2016 ThemesEase
+                    © 2016 My Company
+
                 </div>
                 <div class="col-md-6 text-right">
                     <a href="#" class="mr10">Terms of Use</a> <a href="#">Privacy Policy</a>
